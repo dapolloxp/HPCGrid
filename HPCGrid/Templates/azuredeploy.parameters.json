@@ -1,0 +1,139 @@
+﻿{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters":
+  {
+    "clusterName":
+    {
+      "value": "metlifehpchn01"
+    },
+    "SqlVMName":
+    {
+      "value": "metlifehpcsql01"
+    },
+    "virtualNetworkResourceGroupName":
+    {
+      "value": "VMSS-ILB-Linux"
+    },
+    "virtualNetworkName":
+    {
+      "value": "AzureUSNCVNet2"
+    },
+    "subnetName":
+    {
+      "value": "dapolinuxsubnet"
+    },
+    "HNprivateIPAddress":
+    {
+      "value": "192.168.89.101"
+    },
+    "SQLprivateIPAddress":
+    {
+      "value": "192.168.89.100"
+    },
+    "nbrVMPerAvailabilitySet":
+    {
+      "value": 3
+    },
+    "storageAccountNamePrefix":
+    {
+      "value": "metlifestrg"
+    },
+    "storageAccountStartIndex":
+    {
+      "value": 1
+    },
+    "storageAccountType":
+    {
+      "value": "Premium_LRS"
+    },
+    "nbrCNPerStorageAccount":
+    {
+      "value": 25
+    },
+    "headNodeVMSize":
+    {
+      "value": "Standard_DS4"
+    },
+    "SqlVMSize":
+    {
+      "value": "Standard_DS4"
+    },
+    "SqlDataDiskGiB":
+    {
+      "value": 512
+    },
+    "SqlImagePublisher":
+    {
+      "value": "MicrosoftSQLServer"
+    },
+    "SqlImageOffer":
+    {
+      "value": "SQL2012SP3-WS2012R2"
+    },
+    "SqlImageSku":
+    {
+      "value": "Enterprise"
+    },
+    "hpcNodeImageOsPlatform":
+    {
+      "value": "Windows"
+    },
+    "hpcNodeImagePublisher":
+    {
+      "value": "MicrosoftWindowsServerHPCPack"
+    },
+    "hpcNodeImageOffer":
+    {
+      "value": "WindowsServerHPCPack"
+    },
+    "headNodeImageSku":
+    {
+      "value": "2012R2"
+    },
+    "computeNodeImageSku":
+    {
+      "value": "2012R2CN"
+    },
+    "computeNodeNamePrefix":
+    {
+      "value": "MetCN"
+    },
+    "computeNodeNumber":
+    {
+      "value": 4
+    },
+    "computeNodeVMSize":
+    {
+      "value": "Standard_DS4"
+    },
+    "adminUsername":
+    {
+      "value": "azureuser"
+    },
+    "adminPassword":
+    {
+      "value": "P@ssw0rd123!"
+    },
+    "scriptBaseUri":
+    {
+      "value": "https://apolinarhpcstor01.blob.core.windows.net/scripts"
+    },
+    "domainToJoin":
+    {
+      "value": "contoso.org"
+    },
+    "domainUserName":
+    {
+      "value": "x-admin"
+    },
+    "domainPassword":
+    {
+      "value": "Yankees2010"
+    },
+    "domainJoinOptions":
+    {
+      "value": 3
+    }
+  }
+}
