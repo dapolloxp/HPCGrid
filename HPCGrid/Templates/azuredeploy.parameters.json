@@ -101,7 +101,7 @@
     },
     "computeNodeNumber":
     {
-      "value": 4
+      "value": 2  
     },
     "computeNodeVMSize":
     {
@@ -113,7 +113,7 @@
     },
     "adminPassword":
     {
-      "value": "P@ssw0rd123!"
+      "value": "Yankees2016"
     },
     "scriptBaseUri":
     {
@@ -129,7 +129,7 @@
     },
     "domainPassword":
     {
-      "value": "Yankees2010"
+      "value": "Yankees2016"
     },
     "domainJoinOptions":
     {
